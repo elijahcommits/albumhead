@@ -1,11 +1,11 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 html {
   background-color: slategray;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -13,10 +13,6 @@ html {
 }
 
 .container {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  /* max-width: 100%; */
-  /* grid-gap: 3px; */
   display: flex;
   flex-wrap: wrap-reverse;
   flex-direction: row-reverse;
@@ -24,9 +20,6 @@ html {
 }
 
 .album {
-  aspect-ratio: 1;
-  max-width: 20rem;
-  max-height: 20rem;
   position: relative;
 }
 
@@ -40,6 +33,13 @@ html {
   right: 0;
   z-index: -1;
   box-shadow: 6px 8px 30px black;
+  border-radius: 6px;
+}
+
+.album, .album::before {
+  aspect-ratio: 1;
+  max-width: 20rem;
+  max-height: 20rem;
 }
 
 /* .album_blank {
