@@ -13,10 +13,13 @@ html {
 }
 
 .container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; */
   gap: 0.6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0 auto;
 }
 
 .album {
@@ -41,11 +44,6 @@ html {
   max-width: 20rem;
   max-height: 20rem;
 }
-
-/* .album_blank {
-  background-color: blueviolet;
-  border: 1px solid black;
-} */
 
 .album img {
   max-width: 100%;
