@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Gidole';
+  src: url('../fonts/GidoleFont/Gidole-Regular.eot');
+  src: url('../fonts/GidoleFont/Gidole-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GidoleFont/Gidole-Regular.woff2') format('woff2'),
+      url('../fonts/GidoleFont/Gidole-Regular.woff') format('woff'),
+      url('../fonts/GidoleFont/Gidole-Regular.ttf') format('truetype'),
+      url('../fonts/GidoleFont/Gidole-Regular.svg#Gidole-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +19,13 @@
 html {
   background-color: slategray;
   box-sizing: border-box;
+  font-family: 'Gidole';
+}
+
+.title {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .wrapper {
@@ -53,4 +73,10 @@ html {
 
 .album a {
   cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
