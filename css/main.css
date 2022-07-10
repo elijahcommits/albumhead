@@ -17,6 +17,10 @@
 }
 
 html {
+  font-family: 'Gidole';
+}
+
+body {
   /* background-color: slategray; */
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#83adbd+0,2b4563+100 */
   background: #83adbd; /* Old browsers */
@@ -24,7 +28,6 @@ html {
   background: -webkit-linear-gradient(top,  hsl(197,31%,63%) 0%,hsl(212,40%,28%) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  hsl(197,31%,63%) 0%,hsl(212,40%,28%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83adbd', endColorstr='#2b4563',GradientType=0 ); /* IE6-9 */
-  font-family: 'Gidole';
 }
 
 .title {
