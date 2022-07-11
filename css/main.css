@@ -54,6 +54,10 @@ body {
   position: relative;
 }
 
+.album:hover {
+  opacity: 0.7;
+}
+
 /* so that the box-shadow doesn't cover up adjacent elements */
 .album::before {
   content: '';
