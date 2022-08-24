@@ -58,6 +58,22 @@ body {
   opacity: 0.7;
 }
 
+.album_title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  text-shadow: hsl(0, 0%, 0%) 1px 0 3px, hsl(0, 0%, 0%) 1px 0 10px, hsl(0, 0%, 0%) 0 1px 20px;
+  visibility: hidden;
+}
+
+.album:hover .album_title {
+  visibility: visible;
+}
+
 /* so that the box-shadow doesn't cover up adjacent elements */
 .album::before {
   content: '';
@@ -67,7 +83,7 @@ body {
   left: 0;
   right: 0;
   z-index: -1;
-  box-shadow: 6px 8px 30px black;
+  box-shadow: 6px 8px 30px #000;
   border-radius: 6px;
 }
 
