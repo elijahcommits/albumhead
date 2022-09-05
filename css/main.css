@@ -33,7 +33,15 @@ body {
 .title {
   text-align: center;
   margin-top: 0.8rem;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 3px hsl(0, 0%, 85%);
+}
+
+.subtitle {
+  text-align: center;
   font-size: 1.2rem;
+  color: hsl(0, 0%, 22%);
+  text-shadow: 1px 1px 2px white, 1px 1px 5px white, 1px 1px 20px white;
 }
 
 .wrapper {
