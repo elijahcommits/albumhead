@@ -104,12 +104,15 @@ body {
   color: white;
   font-size: 2rem;
   font-weight: 600;
-  width: 100%;
-  position: absolute;
   text-align: center;
   top: 15%;
   text-shadow: hsl(0, 0%, 0%) 1px 0 3px, hsl(0, 0%, 0%) 1px 0 10px, hsl(0, 0%, 0%) 0 1px 20px;
   visibility: hidden;
+  width: 95%;
+  /* to keep text centered with width of less than 100% */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .album:hover .album_title {
