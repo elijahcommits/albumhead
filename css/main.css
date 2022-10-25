@@ -178,6 +178,13 @@ footer {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .social_link {
+    top: 5px;
+    right: 0px;
+  }
+}
+
 @media screen and (min-width: 580px) {
   .footer {
     text-align: right;
