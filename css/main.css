@@ -183,6 +183,10 @@ footer .dead_links {
   opacity: 60%;
 }
 
+#my_avatar_img {
+  border-radius: 7px;
+}
+
 @media screen and (max-width: 580px) {
   .container {
     justify-items: center;
