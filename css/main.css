@@ -54,6 +54,10 @@ body::-webkit-scrollbar {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
+.hidden {
+  display: none;
+}
+
 /* --------------------------------- */
 
 .title {
